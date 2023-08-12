@@ -1,5 +1,5 @@
 %低通过滤器，取D0为填充图像宽度的0.05
-f=imread('1.JPG');
+f=imread('1.jpeg');
 [f,revertclass]=tofloat(f);
 PQ=paddedsize(size(f));
 [U,V]=dftuv(PQ(1),PQ(2));
